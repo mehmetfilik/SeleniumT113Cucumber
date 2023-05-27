@@ -31,8 +31,11 @@ public class AmazonPage {
     @FindBy(xpath = "(//div[@class='sg-col-inner'])[1]")
     public WebElement aramaSonucuElementi;
 
+    @FindBy(xpath = "//*[@data-image-index='1']")
+    public WebElement ilkUrunElementi;
 
-
+    @FindBy(xpath = "//span[@id='productTitle']")
+    public WebElement ilkUrunIsimElementi;
 
 
 }

@@ -6,12 +6,13 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin={"html:target\\cucumber-reports.html"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
         tags = "@wip", // work in process
         // veya coklu taglar icin "@grup1 and @grup2"
         // veya "@grup1 or @grup2"
-        dryRun = false
+        dryRun = false // SADECE eksik adim var mi diye bakmak istedigimizde true olmali
 )
 
 public class Runner {

@@ -13,7 +13,7 @@ Feature: US1004 Steplerde parametre kullanilabilmeli
 
     Given Kullanici "amazonUrl" sayfaya gider
     When "Java" icin arama yapar
-    Then Arama sonuclarinin "Phyton" icerdigini test eder
+    Then Arama sonuclarinin "Java" icerdigini test eder
     And Sayfayi kapatir
 
   Scenario: TC10 Amazon Samsung Testi

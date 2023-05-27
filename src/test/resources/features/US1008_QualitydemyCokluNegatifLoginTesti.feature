@@ -1,5 +1,5 @@
 Feature: US1008 Toplu kullanici listesi ile negatif login testi
-  @wip
+
   Scenario Outline: TC14 Kullanici listedeki kullanici bilgileri ile giris yapilamadigini test eder
 
     Given Kullanici "qdUrl" sayfaya gider

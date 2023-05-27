@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin={"html:target\\cucumber-reports.html"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@wip", // work in process
+        tags = "@ss", // work in process
         // veya coklu taglar icin "@grup1 and @grup2"
         // veya "@grup1 or @grup2"
         dryRun = false // SADECE eksik adim var mi diye bakmak istedigimizde true olmali

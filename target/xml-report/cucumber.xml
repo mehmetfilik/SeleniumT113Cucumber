@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="19.971" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1009 Kullanici Automation Exercise sayfasinda yeni hesap olusturur" name="TC15 Kullanici kendi bilgileri ile yeni hesap olusturabilmeli" time="19.711">
+<testsuite name="Cucumber" time="10.056" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1010 Kullanici yanlis email ile sisteme giris yapmaz" name="TC16 eksik email ile sisteme giris yapilamaz" time="9.787">
 <system-out><![CDATA[
 Given Kullanici "aeUrl" sayfaya gider.......................................passed
 And user sign up linkine tiklar.............................................passed
-And 2 saniye bekler.........................................................passed
-And user Create an account bolumune name ve email adresi girer..............passed
-And signUp butonuna basar...................................................passed
-And user kisisel bilgilerini ve iletisim bilgilerini girer..................passed
-And user Create Account butonuna basar......................................passed
-Then hesap olustugunu test edin.............................................passed
-When Sayfayi kapatir........................................................passed
+And Login to your account bolumunde email kutusuna @isareti olmayan email adresi yazar.passed
+And password kutusuna sifre yazar ve enter’a tiklar.........................passed
+And sisteme giris yapilamadigini test eder..................................passed
+And Sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

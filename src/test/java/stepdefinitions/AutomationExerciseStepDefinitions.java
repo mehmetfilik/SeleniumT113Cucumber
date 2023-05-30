@@ -80,4 +80,23 @@ public class AutomationExerciseStepDefinitions {
         emailAdress = faker.internet().emailAddress();
         autoExerPage.signUpEmailKutusu.sendKeys(emailAdress);
     }
+
+    @Given("Login to your account bolumunde email kutusuna @isareti olmayan email adresi yazar")
+    public void login_to_your_account_bolumunde_email_kutusuna_isareti_olmayan_email_adresi_yazar() {
+        autoExerPage.loginEmailKutusu.sendKeys("ByeByeWorld");
+    }
+    @Given("password kutusuna sifre yazar ve enter’a tiklar")
+    public void password_kutusuna_sifre_yazar_ve_enter_a_tiklar() {
+        autoExerPage.loginPasswordKutusu.sendKeys(faker.internet().password());
+    }
+
+    @Given("sisteme giris yapilamadigini test eder")
+    public void sisteme_giris_yapilamadigini_test_eder() {
+        autoExerPage.loginPasswordKutusu.isEnabled();
+    }
+
+
+
+
+
 }

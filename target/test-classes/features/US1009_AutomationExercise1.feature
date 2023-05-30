@@ -1,5 +1,5 @@
 Feature: US1009 Kullanici Automation Exercise sayfasinda yeni hesap olusturur
-  @ae
+
   Scenario: TC15 Kullanici kendi bilgileri ile yeni hesap olusturabilmeli
  
     Given Kullanici "aeUrl" sayfaya gider

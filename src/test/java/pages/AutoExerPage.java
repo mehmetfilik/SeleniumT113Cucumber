@@ -32,4 +32,10 @@ public class AutoExerPage {
     @FindBy(xpath = "//*[text()='Account Created!']")
     public WebElement accountCreatedYazisi;
 
+    @FindBy(xpath = "//input[@data-qa='login-email']")
+    public WebElement loginEmailKutusu;
+
+    @FindBy(xpath = "//input[@data-qa='login-password']")
+    public WebElement loginPasswordKutusu;
+
 }

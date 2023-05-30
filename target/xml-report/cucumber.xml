@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="10.056" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1010 Kullanici yanlis email ile sisteme giris yapmaz" name="TC16 eksik email ile sisteme giris yapilamaz" time="9.787">
+<testsuite name="Cucumber" time="0.35" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="US1011 Kullanici web tablosundaki sirketleri yazdirir" name="TC17 Kulllanici listeyi yazdirir ve aranan sirketin varligini test eder" time="0.024">
+<failure/>
 <system-out><![CDATA[
-Given Kullanici "aeUrl" sayfaya gider.......................................passed
-And user sign up linkine tiklar.............................................passed
-And Login to your account bolumunde email kutusuna @isareti olmayan email adresi yazar.passed
-And password kutusuna sifre yazar ve enter’a tiklar.........................passed
-And sisteme giris yapilamadigini test eder..................................passed
-And Sayfayi kapatir.........................................................passed
+Given Kullanici "guruUrl" sayfaya gider.....................................passed
+And guru99 sayfasinda Cookies kabul eder....................................undefined
+Then Company listesini consola yazdirir.....................................skipped
+And DCB Bank’in listede oldugunu test eder..................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>
